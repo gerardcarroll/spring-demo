@@ -1,0 +1,10 @@
+.settings/
+.project
+.classpath
+target/
+activemq-data/
+*.prefs
+.factorypath
+.idea/
+*.iml
+coverage
