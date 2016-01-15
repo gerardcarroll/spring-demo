@@ -22,14 +22,14 @@
     <version>${springFramework.version}</version>
    </dependency>
    <dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>com.springsource.org.apache.commons.logging</artifactId>
-    <version>${apache-commons.version}</version>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>${commons-logging.version}</version>
    </dependency>
   </dependencies>
 
   <properties>
    <springFramework.version>4.2.4.RELEASE</springFramework.version>
-   <apache-commons.version>1.1.1</apache-commons.version>
+   <commons-logging.version>1.2</commons-logging.version>
   </properties>
 </project>
