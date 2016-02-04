@@ -6,10 +6,10 @@ import org.springframework.core.io.FileSystemResource;
 
 public class DrawingApp { // NOSONAR
 
-	public static void main(String[] args) {
-		final BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
-		final Triangle triangle = (Triangle) factory.getBean("triangle");
-		triangle.draw();
-	}
+  public static void main(String[] args) {
+    final BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
+    final Triangle triangle = (Triangle) factory.getBean("triangle");
+    triangle.draw();
+  }
 
 }
